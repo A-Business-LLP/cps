@@ -1,0 +1,294 @@
+.header {
+  background-color: #05196b;
+  padding: 1rem 2rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav__item {}
+
+.nav__link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.nav__link:hover {
+  color: #ffcc00;
+}
+
+.main {
+  background-size: cover;
+  background-image: url("../images/main/bg.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  height: 100vh;
+
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__title {
+  color: #fff;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.main__subtitle {
+  text-align: center;
+  margin-top: 1rem;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.about-company {
+  padding: 5rem;
+}
+
+.about-company__title {
+  color: #05196b;
+  text-align: end;
+  font-size: 2rem;
+}
+
+.about-company__info {
+  margin-top: 2rem;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.about-company-left {
+}
+
+.about-company-left__title {
+  color: #05196b;
+  font-size: 1.5rem;
+}
+
+.about-company-left__description {
+  margin-top: 2rem;
+  color: #05196b;
+  font-size: 1.5rem;
+}
+
+.about-company-left__subtitle {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #05196b;
+}
+
+.about-company-left__list {
+  margin-top: 1rem;
+  padding-left: 1.25rem;
+}
+
+.about-company-left__list li {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #05196b;
+}
+
+.about-company-right {
+  display: flex;
+  flex-flow: column;
+  row-gap: 2rem;
+}
+
+.about-company-right__box {
+  display: flex;
+  align-items: center;
+}
+
+.about-company-right__box img {
+  width: 8rem;
+  height: 4rem;
+  object-fit: contain;
+}
+
+.about-company-right__box div {
+  display: flex;
+  flex-flow: column;
+}
+
+.about-company-right__box p {
+  font-size: 1.5rem;
+  color: #05196b;
+  margin-left: 2rem;
+}
+
+.about-company-right__box ul {
+  font-size: 1.5rem;
+  color: #05196b;
+  padding-left: 4rem;
+}
+
+.partner {
+  padding: 2rem 4rem;
+}
+
+.partner__title {
+  text-align: end;
+  font-size: 2rem;
+  color: #05196b;
+}
+
+.partner-info {
+  margin-top: 2rem;
+  display: flex;
+  flex-flow: column;
+  row-gap: 1rem;
+}
+
+.partner-info__title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #05196b;
+}
+
+.partner-info__description {
+  font-size: 1.75rem;
+  color: #05196b;
+}
+
+.partner__image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.directions {
+  padding: 4rem;
+}
+
+.directions__title {
+  text-align: end;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #05196b;
+}
+
+.directions__list {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+}
+
+.directions__item {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 1rem;
+}
+
+.directions__item p {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #05196b;
+}
+
+.products {
+  padding: 4rem;
+}
+
+.products__title {
+  text-align: end;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #05196b;
+}
+
+.products__description {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  color: #05196b;
+}
+
+.products__subtitle {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #05196b;
+  font-weight: 600;
+}
+
+.products ul {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #05196b;
+  padding-left: 2rem;
+}
+
+.footer {
+  padding: 4rem;
+}
+
+.footer__title {
+  text-align: end;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #05196b;
+}
+
+.footer-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 7rem;
+}
+
+.footer__image {
+  width: 400px;
+}
+
+.footer__info {
+  margin-top: 2rem;
+
+  display: flex;
+  flex-flow: column;
+  row-gap: 2rem;
+}
+
+.footer__info-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+
+.footer__info-row span a,
+.footer__info-row span {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #05196b;
+}
+
+.footer__info-row span:nth-child(1) {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+}
